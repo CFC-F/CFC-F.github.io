@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://cfc-f.github.io/"/>
-  <updated>2020-03-03T06:56:14.555Z</updated>
-  <id>https://cfc-f.github.io/</id>
+  <link href="http://cfc-f.github.io/"/>
+  <updated>2020-03-03T08:35:27.102Z</updated>
+  <id>http://cfc-f.github.io/</id>
   
   <author>
     <name>CFC-F</name>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>test</title>
+    <link href="http://cfc-f.github.io/2020/03/03/test/"/>
+    <id>http://cfc-f.github.io/2020/03/03/test/</id>
+    <published>2020-03-03T08:33:55.000Z</published>
+    <updated>2020-03-03T08:35:27.102Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;![](my first article
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hexo博客更换主题时 hexo g 遇到的问题</title>
-    <link href="https://cfc-f.github.io/2020/03/03/article_title/"/>
-    <id>https://cfc-f.github.io/2020/03/03/article_title/</id>
+    <link href="http://cfc-f.github.io/2020/03/03/article_title/"/>
+    <id>http://cfc-f.github.io/2020/03/03/article_title/</id>
     <published>2020-03-03T05:06:36.000Z</published>
-    <updated>2020-03-03T06:56:14.555Z</updated>
+    <updated>2020-03-03T08:19:21.083Z</updated>
     
     <summary type="html">
     
@@ -30,10 +53,10 @@
     </summary>
     
     
-      <category term="解决思路" scheme="https://CFC-F.github.io/categories/%E8%A7%A3%E5%86%B3%E6%80%9D%E8%B7%AF/"/>
+      <category term="解决思路" scheme="http://CFC-F.github.io/categories/%E8%A7%A3%E5%86%B3%E6%80%9D%E8%B7%AF/"/>
     
     
-      <category term="Github  Hexo博客" scheme="https://CFC-F.github.io/tags/Github-Hexo%E5%8D%9A%E5%AE%A2/"/>
+      <category term="Github  Hexo博客" scheme="http://CFC-F.github.io/tags/Github-Hexo%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
