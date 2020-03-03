@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cfc-f.github.io/"/>
-  <updated>2020-03-02T07:07:42.102Z</updated>
+  <updated>2020-03-03T06:56:14.555Z</updated>
   <id>https://cfc-f.github.io/</id>
   
   <author>
@@ -17,25 +17,23 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://cfc-f.github.io/2020/03/02/hello_world/"/>
-    <id>https://cfc-f.github.io/2020/03/02/hello_world/</id>
-    <published>2020-03-02T07:07:42.101Z</published>
-    <updated>2020-03-02T07:07:42.102Z</updated>
+    <title>Hexo博客更换主题时 hexo g 遇到的问题</title>
+    <link href="https://cfc-f.github.io/2020/03/03/article_title/"/>
+    <id>https://cfc-f.github.io/2020/03/03/article_title/</id>
+    <published>2020-03-03T05:06:36.000Z</published>
+    <updated>2020-03-03T06:56:14.555Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
+      【Hexo博客】更换Hexo主题，使用hexo g命令时，出现Template render error:(unknown path)的解决思路
     
     </summary>
     
     
+      <category term="解决思路" scheme="https://CFC-F.github.io/categories/%E8%A7%A3%E5%86%B3%E6%80%9D%E8%B7%AF/"/>
+    
+    
+      <category term="Github  Hexo博客" scheme="https://CFC-F.github.io/tags/Github-Hexo%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
