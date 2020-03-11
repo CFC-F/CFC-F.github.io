@@ -458,12 +458,12 @@
 <pre><code>![avatar](http://baidu.com/pic/doge.png)</code></pre><h3 id="2-1、-图床外链"><a href="#2-1、-图床外链" class="headerlink" title="2.1、 图床外链"></a>2.1、 图床外链</h3><p>图床网站可以用阿里云OSS、贴图库、七牛云</p>
 <p>得到该图片在该网站上的链接地址，写博客的时候，图片的链接就填改地址</p>
 <h3 id="2-2、有道云笔记"><a href="#2-2、有道云笔记" class="headerlink" title="2.2、有道云笔记"></a>2.2、有道云笔记</h3><p>2.2.1、将图片保存在有道云笔记中<br>步骤：新建一个笔记，上传（或复制）图片到有道云笔记中</p>
-<p><img src="/2020/03/06/second_article/../1.png" alt></p>
+<p><img src="http://note.youdao.com/yws/res/50/WEBRESOURCEe1daf6fc30654e572cf0e2c093497200" alt></p>
 <p>2.2.2、分享图片，会得到1个文件的分享URL，复制这个URL，在浏览器中打开，会看到图片</p>
 <p>右键点击图片，选择【复制图片地址】</p>
 <p>2.2.3、将图片地址放到</p>
 <pre><code>![图片标签](图片网络地址)</code></pre><p>还可以打开网页版有道云笔记，点击图片进行放大，右击图片，选择【复制图片地址】</p>
-<p>！<a href="https://note.youdao.com/yws/public/resource/6dc53d94de4ff1f5b1422f768d17d203/xmlnote/WEBRESOURCEe55c8765d37d7b2a8022aa0ce40ceec3/38" target="_blank" rel="noopener"></a></p>
+<p><img src="/2020/03/06/second_article/1.png" alt></p>
 <h2 id="3、把图片存入markdown文件"><a href="#3、把图片存入markdown文件" class="headerlink" title="3、把图片存入markdown文件"></a>3、把图片存入markdown文件</h2><h3 id="3-1、基础用法："><a href="#3-1、基础用法：" class="headerlink" title="3.1、基础用法："></a>3.1、基础用法：</h3><pre><code>![avatar](data:image/png;base64,iVBORw0......)</code></pre><p>这是会发现插入的这一长串字符串会把整个文章分割开，非常影响编写文章时的体验。如果能够把大段的base64字符串放在文章末尾，然后在文章中通过一个id来调用，文章就不会被分割的这么乱了。</p>
 <h3 id="3-2、高级用法"><a href="#3-2、高级用法" class="headerlink" title="3.2、高级用法"></a>3.2、高级用法</h3><p>比如：</p>
 <pre><code>![avatar][base64str]
