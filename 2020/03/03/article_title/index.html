@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hexo博客更换主题时 hexo g 遇到的问题, CFC Blog">
+    <meta name="keywords" content="Hexo博客更换主题时 使用 hexo g 所遇到的问题, CFC Blog">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Hexo博客更换主题时 hexo g 遇到的问题 | CFC Blog</title>
+    <title>Hexo博客更换主题时 使用 hexo g 所遇到的问题 | CFC Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -282,12 +282,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/15.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hexo博客更换主题时 hexo g 遇到的问题</h1>
+                    <h1 class="description center-align post-title">Hexo博客更换主题时 使用 hexo g 所遇到的问题</h1>
                 </div>
             </div>
         </div>
@@ -438,7 +438,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    343
+                    326
                 </div>
                 
 
@@ -452,12 +452,10 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>【Hexo博客】更换Hexo主题，使用hexo g命令时，出现Template render error:(unknown path)<br>初次通过Github Pages + Hexo 来搭建博客，在进行主题设置时，出现了一点小问题。现已<br>解决问题，将方法留在此处，和大家一起分享。<br>报错信息如下：</p>
-<p>//</p>
 <p><img src="https://img-blog.csdnimg.cn/20200302231237562.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNDAxNTUy,size_16,color_FFFFFF,t_70" alt="01"></p>
-<p>//&lt;img src=”article-title/my first article (1).png”,alt=”first”, width=600 height=300&gt;</p>
 <p>根据提示：可以参考网站<a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">https://hexo.io/docs/troubleshooting.html</a></p>
 <p>问题出现的一般解决方案如下：<br>1、可能在主题的配置文件 _config.yml 中改动时出现有问题，原因是由于配置文件没有空<br>格隔开</p>
-<p><img src="https://note.youdao.com/yws/public/resource/cc529eb89bb0eb85b8cb3605a1dfba11/xmlnote/WEBRESOURCE3c1753dd41f8fc95a3cbb9c2d00f9798/16" alt></p>
+<p><img src="https://img-blog.csdnimg.cn/20200302231336616.png" alt></p>
 <p>查找方法：如上图，在配置文件中，有问题的相关配置项会变成白色<br>配置项正确格式</p>
 <pre><code>#正确格式
 search:
@@ -702,35 +700,47 @@ search：
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/03/06/second_article/">
+                <a href="/2020/03/11/second_article/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="second article">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hexo+markdown之引用图片方法汇集">
                         
-                        <span class="card-title">second article</span>
+                        <span class="card-title">Hexo+markdown之引用图片方法汇集</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            [TOC]
-目录最近在hexo中准备写点文章，但是发现文章中图片一直不显示，查了很多资料，在这里整理了一下，分享给大家，希望能够帮助大家。
- 首先，为什么会出现网页中图片无法显示的问题。
-在Markdown语法中，插入图片格式为![图片标题
+                            @[toc]
+1、概述最近在hexo中准备写点文章，但是发现文章中图片一直不显示，查了很多资料，在这里整理了一下，分享给大家，希望能够帮助大家。
+ 首先，网页中图片无法显示可能存在的一些问题。
+在Markdown语法中，插入图片格式为![图
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-03-06
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-03-11
                         </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            CFC-F
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E8%A7%A3%E5%86%B3%E6%80%9D%E8%B7%AF/" class="post-category">
+                                    解决思路
+                                </a>
+                            
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Hexo%E5%8D%9A%E5%AE%A2-markdown/">
+                        <span class="chip bg-color">Hexo博客  markdown</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -746,9 +756,9 @@ search：
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Hexo博客更换主题时 hexo g 遇到的问题">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Hexo博客更换主题时 使用 hexo g 所遇到的问题">
                         
-                        <span class="card-title">Hexo博客更换主题时 hexo g 遇到的问题</span>
+                        <span class="card-title">Hexo博客更换主题时 使用 hexo g 所遇到的问题</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -930,7 +940,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">1.6k</span>&nbsp;字
+                class="white-color">1.7k</span>&nbsp;字
             
             
             
