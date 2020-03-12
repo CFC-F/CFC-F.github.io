@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hexo博客更换主题时 使用 hexo g 所遇到的问题, CFC Blog">
+    <meta name="keywords" content="友情链接, CFC Blog">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Hexo博客更换主题时 使用 hexo g 所遇到的问题 | CFC Blog</title>
+    <title>友情链接 | CFC Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -282,12 +282,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/9.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hexo博客更换主题时 使用 hexo g 所遇到的问题</h1>
+                    <h1 class="description center-align post-title">友情链接</h1>
                 </div>
             </div>
         </div>
@@ -402,25 +402,12 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/tags/Github-Hexo%E5%8D%9A%E5%AE%A2/">
-                                <span class="chip bg-color">Github  Hexo博客</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
-                    
-                    <div class="post-cate">
-                        <i class="fas fa-bookmark fa-fw icon-category"></i>
-                        
-                            <a href="/categories/%E8%A7%A3%E5%86%B3%E6%80%9D%E8%B7%AF/" class="post-category">
-                                解决思路
-                            </a>
-                        
-                    </div>
                     
                 </div>
             </div>
@@ -429,7 +416,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-03-03
+                    2020-03-12
                 </div>
                 
 
@@ -438,7 +425,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    327
+                    0
                 </div>
                 
 
@@ -451,15 +438,7 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>【Hexo博客】更换Hexo主题，使用hexo g命令时，出现Template render error:(unknown path)<br>初次通过Github Pages + Hexo 来搭建博客，在进行主题设置时，出现了一点小问题。现已<br>解决问题，将方法留在此处，和大家一起分享。<br>报错信息如下：</p>
-<p><a href="https://img-blog.csdnimg.cn/20200302231237562.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNDAxNTUy,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener" data-fancybox="group" data-caption="01" class="fancybox"><img alt="01" title="01" data-src="https://img-blog.csdnimg.cn/20200302231237562.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNDAxNTUy,size_16,color_FFFFFF,t_70" class="lazyload"></a></p>
-<p>根据提示：可以参考网站<a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">https://hexo.io/docs/troubleshooting.html</a></p>
-<p>问题出现的一般解决方案如下：<br>1、可能在主题的配置文件 _config.yml 中改动时出现有问题，原因是由于配置文件没有空<br>格隔开</p>
-<p><a href="https://img-blog.csdnimg.cn/20200302231336616.png" target="_blank" rel="noopener" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://img-blog.csdnimg.cn/20200302231336616.png" class="lazyload"></a></p>
-<p>查找方法：如上图，在配置文件中，有问题的相关配置项会变成白色<br>配置项正确格式</p>
-<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#正确格式</span><br><span class="line">search:</span><br><span class="line">  path: 参数</span><br><span class="line">  field: 参数</span><br><span class="line">#错误格式</span><br><span class="line">search：</span><br><span class="line">  path:参数</span><br><span class="line">  field:参数</span><br><span class="line">#正确格式是在“path:”配置项后面有一个空格，再加上参数</span><br></pre></td></tr></table></figure></div>
-<p> 给初次搭建博客的盆友们一点小建议，在修改博客或者主题的一些相关配置时（特别是在&gt;修改博客主题配置文件时）保险起见，可以修改一部分配置信息后，使用命令<br>    <code>hexo g</code><br>    <code>hexo s</code><br>通过本地地址 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 进行博客主题改动预览，进而查看主题改动的情况&gt;。</p>
-
+                
             </div>
             <hr/>
 
@@ -484,7 +463,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://CFC-F.github.io/2020/03/03/article_title/">http://CFC-F.github.io/2020/03/03/article_title/</a>
+                    <a href="http://CFC-F.github.io/link/index.html">http://CFC-F.github.io/link/index.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -521,11 +500,7 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            
-                                <a href="/tags/Github-Hexo%E5%8D%9A%E5%AE%A2/">
-                                    <span class="chip bg-color">Github  Hexo博客</span>
-                                </a>
-                            
+                            <span class="chip bg-color">无标签</span>
                         </div>
                     
                 </div>
@@ -689,52 +664,39 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/03/11/second_article/">
+                <a href="/link/index.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hexo+markdown之引用图片方法汇集">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="友情链接">
                         
-                        <span class="card-title">Hexo+markdown之引用图片方法汇集</span>
+                        <span class="card-title">友情链接</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            @[toc]
-1、概述最近在hexo中准备写点文章，但是发现文章中图片一直不显示，查了很多资料，在这里整理了一下，分享给大家，希望能够帮助大家。
- 首先，网页中图片无法显示可能存在的一些问题。
-在Markdown语法中，插入图片格式为![图
+                            
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-03-11
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-12
+                            </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E8%A7%A3%E5%86%B3%E6%80%9D%E8%B7%AF/" class="post-category">
-                                    解决思路
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            CFC-F
                             
                         </span>
                     </div>
                 </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Hexo%E5%8D%9A%E5%AE%A2-markdown/">
-                        <span class="chip bg-color">Hexo博客  markdown</span>
-                    </a>
-                    
-                </div>
+
                 
             </div>
         </div>
@@ -745,46 +707,34 @@
                 本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/2020/03/03/article_title/">
+                <a href="/link/index.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Hexo博客更换主题时 使用 hexo g 所遇到的问题">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="友情链接">
                         
-                        <span class="card-title">Hexo博客更换主题时 使用 hexo g 所遇到的问题</span>
+                        <span class="card-title">友情链接</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            前言【Hexo博客】更换Hexo主题，使用hexo g命令时，出现Template render error:(unknown path)初次通过Github Pages + Hexo 来搭建博客，在进行主题设置时，出现了一点小问题。现已解
+                            
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-03
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-12
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E8%A7%A3%E5%86%B3%E6%80%9D%E8%B7%AF/" class="post-category">
-                                    解决思路
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            CFC-F
                             
                         </span>
                     </div>
                 </div>
 
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Github-Hexo%E5%8D%9A%E5%AE%A2/">
-                        <span class="chip bg-color">Github  Hexo博客</span>
-                    </a>
-                    
-                </div>
                 
             </div>
         </div>
