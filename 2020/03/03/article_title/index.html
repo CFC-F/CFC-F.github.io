@@ -438,7 +438,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    327
+                    326
                 </div>
                 
 
@@ -452,12 +452,12 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>【Hexo博客】更换Hexo主题，使用hexo g命令时，出现Template render error:(unknown path)<br>初次通过Github Pages + Hexo 来搭建博客，在进行主题设置时，出现了一点小问题。现已<br>解决问题，将方法留在此处，和大家一起分享。<br>报错信息如下：</p>
-<p><a href="https://img-blog.csdnimg.cn/20200302231237562.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNDAxNTUy,size_16,color_FFFFFF,t_70" target="_blank" rel="noopener" data-fancybox="group" data-caption="01" class="fancybox"><img alt="01" data-src="https://img-blog.csdnimg.cn/20200302231237562.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNDAxNTUy,size_16,color_FFFFFF,t_70" class="lazyload" title="01"></a></p>
+<p><img src="https://img-blog.csdnimg.cn/20200302231237562.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNDAxNTUy,size_16,color_FFFFFF,t_70" alt="01"></p>
 <p>根据提示：可以参考网站<a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">https://hexo.io/docs/troubleshooting.html</a></p>
 <p>问题出现的一般解决方案如下：<br>1、可能在主题的配置文件 _config.yml 中改动时出现有问题，原因是由于配置文件没有空<br>格隔开</p>
-<p><a href="https://img-blog.csdnimg.cn/20200302231336616.png" target="_blank" rel="noopener" data-fancybox="group" data-caption class="fancybox"><img alt data-src="https://img-blog.csdnimg.cn/20200302231336616.png" class="lazyload" title></a></p>
+<p><img src="https://img-blog.csdnimg.cn/20200302231336616.png" alt=""></p>
 <p>查找方法：如上图，在配置文件中，有问题的相关配置项会变成白色<br>配置项正确格式</p>
-<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#正确格式</span><br><span class="line">search:</span><br><span class="line">  path: 参数</span><br><span class="line">  field: 参数</span><br><span class="line">#错误格式</span><br><span class="line">search：</span><br><span class="line">  path:参数</span><br><span class="line">  field:参数</span><br><span class="line">#正确格式是在“path:”配置项后面有一个空格，再加上参数</span><br></pre></td></tr></table></figure></div>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#正确格式</span><br><span class="line">search:</span><br><span class="line">  path: 参数</span><br><span class="line">  field: 参数</span><br><span class="line">#错误格式</span><br><span class="line">search：</span><br><span class="line">  path:参数</span><br><span class="line">  field:参数</span><br><span class="line">#正确格式是在“path:”配置项后面有一个空格，再加上参数</span><br></pre></td></tr></table></figure>
 <p> 给初次搭建博客的盆友们一点小建议，在修改博客或者主题的一些相关配置时（特别是在&gt;修改博客主题配置文件时）保险起见，可以修改一部分配置信息后，使用命令<br>    <code>hexo g</code><br>    <code>hexo s</code><br>通过本地地址 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 进行博客主题改动预览，进而查看主题改动的情况&gt;。</p>
 
             </div>
