@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://CFC-F.github.io
+url: http://CFC-F.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -41,12 +41,12 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
-  enable: false
-  line_number: true
+  enable: true
+  line_number: false
   auto_detect: false
   tab_replace: ''
   wrap: true
@@ -119,7 +119,8 @@ feed:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-matery
+theme:  hexo-theme-matery 
+# hexo-theme-matery  、  Butterfly   、 next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
