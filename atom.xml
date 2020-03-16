@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cfc-f.github.io/"/>
-  <updated>2020-03-12T14:16:58.697Z</updated>
+  <updated>2020-03-16T05:17:43.346Z</updated>
   <id>http://cfc-f.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【word篇】word使用过程中出现的问题总结</title>
+    <link href="http://cfc-f.github.io/2020/03/14/thirdarticle/"/>
+    <id>http://cfc-f.github.io/2020/03/14/thirdarticle/</id>
+    <published>2020-03-14T12:35:38.000Z</published>
+    <updated>2020-03-16T05:17:43.346Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;word如何插入页码、word插入图片显示不全的问题&quot;&gt;&lt;a href=&quot;#word如何插入页码、word插入图片显示不全的问题&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hexo+markdown之引用图片方法汇集</title>
