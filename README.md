@@ -8,7 +8,7 @@ git init   //初始化 Git 仓库
 git add .   //添加文件
 git commit -m '提交说明'   //提交文件
 git remote add origin  仓库地址       //如果出现错误：fatal: remote origin already exists      请先执行 git remote rm origin 命令，再执行次命令
-git pull --rebase origin master       //(可选)命令进行合并操作即可
+git pull --rebase origin master       //(可选)命令进行合并操作即可，执行git  push命令时，出现error: failed to push some refs to，使用此命令
 git  push origin  master             // 上传
 ```
 ## git分支管理
